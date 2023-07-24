@@ -1,11 +1,21 @@
 @import '~bootstrap/scss/bootstrap';
 
+body{
+    background-color:rgba(48,48,48,255);
+}
+
+.header-bottom{
+    background-color: white;
+}
+
 header{
     ul{
         display: flex;
+        
 
         li{
             margin: 0 10px;
+            color: white;
             a{
                 text-transform: uppercase;
                 text-decoration: none;
@@ -41,13 +51,38 @@ h6{
 
 h5{
     background-color: blue;
-    height: 50px;
+    color: white;
     width: 13%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+    
 
 .button-load-more{
     width: 15%;
+}
+
+span{
+    color: white;
+    
+}
+
+.footer-bg{
+    width:100%;
+    background-image: url(/resources/img/footer-bg.jpg);
+}
+
+li{
+    color: white;
+    list-style-type: none;
+}
+
+ul{
+    color: white;
+    
+}
+
+h6{
+    color: white;
 }

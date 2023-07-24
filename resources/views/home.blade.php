@@ -41,7 +41,18 @@
                     </div>
                 </div>
             </div>
+            <div class="d-flex justify-content-between my-5 bg-primary">
+                <span><img src="{{Vite::asset('/resources/img/buy-comics-digital-comics.png')}}">DIGITAL COMICS</span>
+                <span><img src="{{Vite::asset('/resources/img/buy-comics-merchandise.png')}}">DC MERCHANDISE</span>
+                <span><img src="{{Vite::asset('/resources/img/buy-comics-subscriptions.png')}}">SUBSCRIPTION</span>
+                <span><img src="{{Vite::asset('/resources/img/buy-comics-shop-locator.png')}}">COMIC SHOP LOCATOR</span>
+    
+                <span><img src="{{Vite::asset('/resources/img/buy-dc-power-visa.svg')}}" height=80>DC POWER VISA</span>
+    
+            </div>
+            @include('partials.footer')
         </div>
+       
     </main>
 
 </body>
