@@ -3,7 +3,7 @@
         
         <div class="container">
             <div class="row">
-                <div class="col-3">
+                <div class="col-3 my-5">
                
                    <ul><strong>DC COMICS</strong>
                     <li>Character</li>
@@ -20,10 +20,12 @@
                     <li>shop DC</li>
                     <li>SHOP DC collectibles</li>
                    
-                   </ul>
-                    
-                </div>
-                <div class="col-3">
+                </ul>
+                
+                
+                <p>All site Content TM and @ 2020 DC Entertainment, unless otherwise <a href="#">noted here.</a>All rights reserved.<br> <a href="#">Cookies Settings</a></p>
+            </div>
+                <div class="col-3 my-5">
                
                     <ul><strong>DC</strong>
                         <li>Privacy Policy(New)</li>
@@ -41,7 +43,7 @@
                     
                     </ul>
                 </div>
-                <div class="col-3">
+                <div class="col-3 my-5">
                
                     <ul><strong>SITES</strong>
                         <li>DC</li>
@@ -52,22 +54,22 @@
                     </ul>
                 </div>
                 <div class="col-3">
-                <img src="{{Vite::asset('/resources/img/dc-logo-bg.png')}}">
+                    <img class="logo-footer" src="{{Vite::asset('/resources/img/dc-logo-bg.png')}}">
                 
                 </div>
-                        
 
-
-                    
                 
             </div>
-           
-           
-        </div>
-        
-      
             
-    
+            
+        </div>
+        <div class="container-full bg-dark">
+            <div class="container">
+                <button class="button-footer">SIGN-UP NOW!</button>
+
+            </div>
+        </div>
+
 
     </div>
    
