@@ -18,7 +18,20 @@
 <body>
     @include('partials.header')
     <main>
-        dc 
+        <div class="jumbotron">
+        <img src="{{Vite::asset('/resources/img/jumbotron.jpg')}}" class="img-jumbotron">
+        </div>
+        <div class="container">
+            <div class="row">
+                @foreach($comics as $comic)
+                <div class="col-12 col-lg-2">
+                    <img src=" {{$comic['thumb']}}">
+                    {{$comic['series']}}
+
+                </div>
+                @endforeach
+            </div>
+        </div>
     </main>
 
 </body>
