@@ -16,9 +16,9 @@
 </head>
 
 <body>
-
+    @include('partials.header')
     <main>
-        cvidoa
+        dc 
     </main>
 
 </body>
