@@ -24,19 +24,19 @@ return [
                 "Jim Lee"
             ],
             "writers" => [
-                "Brad Meltzer",
-                "Tom King",
-                "Scott Snyder",
-                "Geoff Johns",
-                "Brian Michael Bendis",
-                "Paul Dini",
-                "Louise Simonson",
-                "Richard Donner",
-                "Marv Wolfman",
-                "Peter J. Tomasi",
-                "Dan Jurgens",
-                "Jerry Siegel",
-                "Paul Levitz"
+                "Brad Meltzer,",
+                "Tom King,",
+                "Scott Snyder,",
+                "Geoff Johns,",
+                "Brian Michael Bendis,",
+                "Paul Dini,",
+                "Louise Simonson,",
+                "Richard Donner,",
+                "Marv Wolfman,",
+                "Peter J. Tomasi,",
+                "Dan Jurgens,",
+                "Jerry Siegel,",
+                "Paul Levitz,"
             ],
         ],
         [
