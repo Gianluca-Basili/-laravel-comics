@@ -1,7 +1,9 @@
 @import '~bootstrap/scss/bootstrap';
 
-body{
-    background-color:rgba(48,48,48,255);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .header-bottom{
@@ -92,7 +94,7 @@ h6{
     
 }
 
-p{
+.p-footer{
     color: white;
     width: 695px;
 }

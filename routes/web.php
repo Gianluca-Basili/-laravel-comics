@@ -22,5 +22,5 @@ Route::get('/', function () {
 Route::get('/comics/{comic}', function ($id) {
     $comics = config('db.comics');
     $comic = $comics[$id];
-    return view('comics.show',compact('comics'));
-});
+    return view('comics.show',compact('comic'));
+})->name('comics.show');

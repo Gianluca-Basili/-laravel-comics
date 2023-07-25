@@ -13,7 +13,7 @@
             </div>
             @foreach($comics as $id=> $comic)
             <div class="col-12 col-lg-2 my-5 ">
-                <a href="#" class="text-decoration-none">
+                <a href="{{route('comics.show', $id)}}" class="text-decoration-none">
                     <img src=" {{$comic['thumb']}}" class="thumb">
                     <h6 class="my-3">{{$comic['series']}}</h6>
 

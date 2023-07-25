@@ -23,7 +23,7 @@
                 </ul>
                 
                 
-                <p>All site Content TM and @ 2020 DC Entertainment, unless otherwise <a href="#">noted here.</a>All rights reserved.<br> <a href="#">Cookies Settings</a></p>
+                <p class="p-footer">All site Content TM and @ 2020 DC Entertainment, unless otherwise <a href="#">noted here.</a>All rights reserved.<br> <a href="#">Cookies Settings</a></p>
             </div>
                 <div class="col-3 my-5">
                
